@@ -1864,7 +1864,7 @@ int Player::minimax(int depth, int alpha, int beta, int minimax_player)
 {
 	if (kt_win())
 	{
-		if (minimax_player == 2)
+		if (minimax_player == 1)
 			return -winScore;
 		else
 			return winScore;
